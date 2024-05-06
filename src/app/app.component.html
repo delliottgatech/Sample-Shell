@@ -1,0 +1,18 @@
+<div class="sampleshell-container">
+  <rux-global-status-bar
+    app-name="Sample-Shell"
+    app-domain="Sample"
+    include-icon="true"
+    menu-icon="apps"
+    [appVersion]="appVersion"
+  >
+    <rux-icon icon="apps" slot="prefix" size="auto"></rux-icon>
+  </rux-global-status-bar>
+  <rux-container>
+    <div style="display: flex; width: 100%; gap: 1rem">
+      <rux-card style="width: 50%; height: 100%">
+        <app-globe></app-globe>
+      </rux-card>
+    </div>
+  </rux-container>
+</div>
