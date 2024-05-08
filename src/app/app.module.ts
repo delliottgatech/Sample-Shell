@@ -7,11 +7,7 @@ import { GlobeComponent } from './globe/globe.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AstroComponentsModule,
-    GlobeComponent,
-  ],
+  imports: [BrowserModule, AstroComponentsModule, GlobeComponent],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
