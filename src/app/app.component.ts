@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   /**
    * Title of the application.
    */
-  title = 'Sample-Shell';
+  title = 'Shell';
 
   constructor() {
     globalThis.ngZone = inject(NgZone);

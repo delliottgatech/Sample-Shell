@@ -1,5 +1,5 @@
 {
-    "name": "sample-shell",
+    "name": "shell",
     "version": "0.0.1",
     "scripts": {
       "ng": "ng",

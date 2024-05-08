@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"Sample-Shell": {
+		"Shell": {
 			"projectType": "application",
 			"schematics": {},
 			"root": "",
@@ -13,7 +13,7 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
-						"outputPath": "dist/Sample-Shell",
+						"outputPath": "dist/shell",
 						"index": "src/index.html",
 						"polyfills": [
 							"zone.js"
@@ -62,11 +62,11 @@
 					"builder": "ngx-build-plus:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "Sample-Shell:build:production",
+							"buildTarget": "Shell:build:production",
 							"extraWebpackConfig": "webpack.prod.config.js"
 						},
 						"development": {
-							"buildTarget": "Sample-Shell:build:development"
+							"buildTarget": "Shell:build:development"
 						}
 					},
 					"defaultConfiguration": "development",
@@ -79,7 +79,7 @@
 				"extract-i18n": {
 					"builder": "ngx-build-plus:extract-i18n",
 					"options": {
-						"buildTarget": "Sample-Shell:build",
+						"buildTarget": "Shell:build",
 						"extraWebpackConfig": "webpack.config.js"
 					}
 				},

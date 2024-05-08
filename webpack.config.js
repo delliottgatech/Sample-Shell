@@ -15,7 +15,7 @@ sharedMappings.register(
 
 module.exports = {
   output: {
-    uniqueName: "Sample-Shell",
+    uniqueName: "shell",
     publicPath: "auto"
   },
   optimization: {
